@@ -6,8 +6,6 @@ COPY . ./
 
 RUN npm install
 
-RUN npm run build
-
-CMD npm run build-serve
+RUN npm start
 
 EXPOSE 3000
